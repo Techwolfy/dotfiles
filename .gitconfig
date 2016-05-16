@@ -1,0 +1,10 @@
+[user]
+	email = dring@g33kworld.net
+	name = Techwolf
+[core]
+	editor = nano
+	autocrlf = input
+[help]
+	autocorrect = 20
+[push]
+	default = simple
