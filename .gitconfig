@@ -8,3 +8,6 @@
 	autocorrect = 20
 [push]
 	default = simple
+[alias]
+	acp = !git add -A && git commit && git push
+	unadd = reset HEAD --

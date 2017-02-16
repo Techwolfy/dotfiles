@@ -6,13 +6,16 @@ alias please="sudo !!"
 #Git aliases
 alias gi="git init"
 alias gs="git status"
+alias gacp="git acp"
+
 alias gd="git diff"
+alias gdc="git diff --cached"
 
 alias gl="git log"
 alias gls="git log --stat -M20"
 
 alias ga="git add"
-alias gua="git rm --cached"	#git "un-add"
+alias gua="git unadd"
 
 alias gc="git commit"
 alias gca="git commit --amend"
