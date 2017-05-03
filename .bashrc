@@ -119,3 +119,8 @@ fi
 
 # default X server is localhost (or forwarded to localhost)
 export DISPLAY=localhost:0.0
+
+# Debian packaging
+DEBEMAIL="dring@wolfishly.me"
+DEBFULLNAME="Daniel Ring"
+DEB_SIGN_KEYID="F2BAACCD"
