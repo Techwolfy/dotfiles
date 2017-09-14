@@ -21,11 +21,13 @@ alias gua="git unadd"
 alias gc="git commit"
 alias gca="git commit --amend"
 
-alias gp="git push"
+alias gp="git push --all --follow-tags"
 alias gpf="git push --force"
 
 alias gck="git checkout"
 alias grf="git checkout --"	#git "reset file"
+
+alias gb="git branch"
 
 alias gst="git stash"
 alias gsp="git stash pop"
