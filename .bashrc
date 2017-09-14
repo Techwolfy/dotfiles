@@ -117,6 +117,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#Automatically start tmux on login
+#if which tmux >/dev/null; then
+#	[ $TERM != "screen" ] && [ -z $TMUX ] && exec tmux
+#fi
+
 # default X server is localhost (or forwarded to localhost)
 export DISPLAY=localhost:0.0
 
@@ -124,3 +129,6 @@ export DISPLAY=localhost:0.0
 DEBEMAIL="dring@wolfishly.me"
 DEBFULLNAME="Daniel Ring"
 DEB_SIGN_KEYID="F2BAACCD"
+
+# gdax-cli
+alias gdax=~/gdax-cli/gdax.py
