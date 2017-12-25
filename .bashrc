@@ -19,6 +19,9 @@ shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
 
+# Update history file on every prompt run
+PROMPT_COMMAND="history -a"
+
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
@@ -126,9 +129,9 @@ fi
 export DISPLAY=localhost:0.0
 
 # Debian packaging
-DEBEMAIL="dring@wolfishly.me"
-DEBFULLNAME="Daniel Ring"
-DEB_SIGN_KEYID="F2BAACCD"
+export DEBEMAIL="dring@wolfishly.me"
+export DEBFULLNAME="Daniel Ring"
+export DEB_SIGN_KEYID="F2BAACCD"
 
 # gdax-cli
 alias gdax=~/gdax-cli/gdax.py

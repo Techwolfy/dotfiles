@@ -39,3 +39,7 @@ alias grb="git rebase"
 alias gri="git rebase -i"
 alias grc="git rebase --continue"
 alias gra="git rebase --abort"
+
+#Debian development aliases
+alias gbpb="gbp buildpackage"
+alias udcv="uscan --download-current-version"
