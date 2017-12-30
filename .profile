@@ -20,3 +20,18 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+#Update dotfiles
+cd ~
+git remote get-url nopasswd 2>&1 >/dev/null
+if [ $? -ne 0 ]; then
+	git remote add nopasswd https://github.com/techwolfy/dotfiles.git
+fi
+LASTUPDATE=$(cat .dotfile_version)
+NOW=$(date +%s)
+if [ $(expr $NOW - $LASTUPDATE) -gt 3600 ]; then
+	git pull --quiet nopasswd master
+fi
+echo $NOW > .dotfile_version
+unset LASTUPDATE
+unset NOW
