@@ -30,7 +30,7 @@ fi
 LASTUPDATE=$(cat .dotfile_version)
 NOW=$(date +%s)
 if [ $(expr $NOW - $LASTUPDATE) -gt 3600 ]; then
-	git pull --quiet nopasswd master
+	(git pull --quiet nopasswd master &)
 fi
 echo $NOW > .dotfile_version
 unset LASTUPDATE

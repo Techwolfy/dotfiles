@@ -2,6 +2,7 @@
 alias la="ls -a"
 alias ll="ls -al"
 alias please="sudo !!"
+alias subl="/mnt/c/Program\ Files/Sublime\ Text\ 3/subl.exe"
 
 #Git aliases
 alias gi="git init"
