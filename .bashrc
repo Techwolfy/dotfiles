@@ -134,7 +134,7 @@ export DISPLAY=localhost:0.0
 # Debian packaging
 export DEBEMAIL="dring@wolfishly.me"
 export DEBFULLNAME="Daniel Ring"
-export DEB_SIGN_KEYID="F2BAACCD"
+export DEB_SIGN_KEYID="2F464604F2BAACCD"
 
 # gdax-cli
 alias gdax=~/gdax-cli/gdax.py

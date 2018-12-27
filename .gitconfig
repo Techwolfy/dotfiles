@@ -1,9 +1,10 @@
 [user]
-	email = dring@g33kworld.net
+	email = dring@wolfishly.me
 	name = Techwolf
 [core]
 	editor = nano
 	autocrlf = input
+	excludesfile = ~/.gitignore-global
 [help]
 	autocorrect = 20
 [push]

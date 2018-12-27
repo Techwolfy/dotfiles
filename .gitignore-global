@@ -1,0 +1,6 @@
+#Debian build files
+.pc/
+debian/.debhelper/
+debian/files
+debian/*.debhelper.log
+debian/*.substvars
