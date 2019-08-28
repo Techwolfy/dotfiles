@@ -3,6 +3,7 @@ alias la="ls -a"
 alias ll="ls -al"
 alias please="sudo !!"
 alias subl="/mnt/c/Program\ Files/Sublime\ Text\ 3/subl.exe"
+alias fs="grep -Ri"
 
 #Git aliases
 alias gi="git init"
@@ -47,6 +48,7 @@ alias gr="git reset"
 alias grh="git reset --hard"
 
 alias grb="git rebase"
+alias grbo="git rebase origin/master"
 alias gri="git rebase -i"
 alias grc="git rebase --continue"
 alias gra="git rebase --abort"
