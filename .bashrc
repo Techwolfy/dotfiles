@@ -135,6 +135,7 @@ export DISPLAY=localhost:0.0
 export DEBEMAIL="dring@wolfishly.me"
 export DEBFULLNAME="Daniel Ring"
 export DEB_SIGN_KEYID="2F464604F2BAACCD"
+export DEBUILD_LINTIAN_OPTS="-I -E --pedantic --no-tag-display-limit"
 
 # gdax-cli
 alias gdax=~/gdax-cli/gdax.py
