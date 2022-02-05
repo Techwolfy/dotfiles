@@ -35,7 +35,7 @@ alias gca="git commit --amend"
 alias gcac="git commit --amend -C HEAD"
 
 alias gp="git push --follow-tags"
-alias gpf="git push --force"
+alias gpf="git push --force-with-lease"
 alias gpsu="git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)"
 
 alias gpl="git pull"
