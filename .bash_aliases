@@ -7,6 +7,8 @@ alias fs="grep -Ri"
 alias code="subl"
 alias dedupy="/mnt/c/Users/Daniel/Dropbox/Code/dedupy/dedu.py"
 alias pyenv="python3 -m venv env"
+alias weather="curl wttr.in"
+alias publicip="curl -4 icanhazip.com && curl -6 icanhazip.com"
 
 #Git aliases
 alias gi="git init"
